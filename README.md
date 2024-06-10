@@ -6,7 +6,7 @@ Aim to train a deep learning model to detect blindness before it happened.
 1. Preprocessing dataset
 2. 1st-level models: train 3 models (resnext) on the same dataset
 3. 2nd-level models: add deep learning techniques - pseudo labeling & ensemble
-4. Evaluation
+4. Evaluation  
 
 
 ## Prerequisite
@@ -27,7 +27,7 @@ Aim to train a deep learning model to detect blindness before it happened.
 |tqdm                                     | 4.66.4            |
 |pretrainedmodels                         | 0.7.4             |
 |scipy                                    | 1.11.4            |
-
+  
 
 ## Usage
 
@@ -39,11 +39,12 @@ python train.py --arch se_resnext50_32x4d
 python train.py --arch se_resnext101_32x4d --batch_size 24
 python train.py --arch senet154 --batch_size 16
 ```  
+
   
 ### Train 2nd-level models with pseudo labels and ensemble
 We train our second stage model on kaggle notebook.  
 https://www.kaggle.com/code/derektai/ai-final-project-team-33-stage-2
-
+  
 
 ## Hyperparameters
 epochs: 30  
@@ -52,7 +53,7 @@ learning-rate: 1e-3
 Loss: MSE  
 Optimizer: SGD  
 LR scheduler: CosineAnnealingLR  
-
+  
 
 ## Experiment Results
 We get following result.  
