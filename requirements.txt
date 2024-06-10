@@ -1,0 +1,15 @@
+pip==23.3.2
+python==3.10.13
+opencv-python==4.10.0.82
+joblib==1.4.2
+matplotlib==3.7.5
+numpy==1.26.4
+pandas==2.2.1
+torch==2.1.2
+torchvision==0.16.2
+Pillow==9.5.0
+scikit-image==0.22.0
+scikit-learn==1.2.2
+tqdm==4.66.4
+pretrainedmodels==0.7.4
+scipy==1.11.4
