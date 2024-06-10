@@ -1,7 +1,8 @@
 # AI Final Project Team33 - Trying Different Deep Learning Techniques to Enhance Eye Disease Detection
 
 ## Task Overview 
-APTOS 2019 Blindness Detection(https://www.kaggle.com/c/aptos2019-blindness-detection). Aim to train a deep learning model to detect blindness before it happened.
+APTOS 2019 Blindness Detection(https://www.kaggle.com/c/aptos2019-blindness-detection). 
+Aim to train a deep learning model to detect blindness before it happened.
 1. Preprocessing dataset
 2. 1st-level models: train 3 models (resnext) on the same dataset
 3. 2nd-level models: add deep learning techniques - pseudo labeling & ensemble
@@ -12,7 +13,7 @@ APTOS 2019 Blindness Detection(https://www.kaggle.com/c/aptos2019-blindness-dete
 |Package                                  | Version           |
 |---------------------------------------- | ------------------|
 |pip                                      | 23.3.2            |
-|Python                                   | 3.10.13           |
+|python                                   | 3.10.13           |
 |opencv-python                            | 4.10.0.82         |
 |joblib                                   | 1.4.2             |
 |matplotlib                               | 3.7.5             |
